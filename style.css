@@ -1,7 +1,17 @@
-* {
+  {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+  header{
+    background-color: #00a8a8;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-bottom: 20px;
   }
   
   body {
@@ -66,4 +76,3 @@
   .product:hover img {
     filter: brightness(1.1);
   }
-  
